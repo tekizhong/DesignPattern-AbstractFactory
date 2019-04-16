@@ -15,6 +15,18 @@
 		976DBC7A226062FF004B2DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBC79226062FF004B2DC0 /* main.m */; };
 		976DBC84226062FF004B2DC0 /* DesignPattern_AbstractFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBC83226062FF004B2DC0 /* DesignPattern_AbstractFactoryTests.m */; };
 		976DBC8F226062FF004B2DC0 /* DesignPattern_AbstractFactoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBC8E226062FF004B2DC0 /* DesignPattern_AbstractFactoryUITests.m */; };
+		976DBCAF2260647C004B2DC0 /* TKiPhoneUSBCable.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCAE2260647C004B2DC0 /* TKiPhoneUSBCable.m */; };
+		976DBCB2226064EB004B2DC0 /* TKMobileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCB1226064EB004B2DC0 /* TKMobileFactory.m */; };
+		976DBCB522606554004B2DC0 /* TKMobileObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCB422606554004B2DC0 /* TKMobileObject.m */; };
+		976DBCB822606597004B2DC0 /* TKiPhoneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCB722606597004B2DC0 /* TKiPhoneObject.m */; };
+		976DBCBB226065D3004B2DC0 /* TKiPhoneHeadSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCBA226065D3004B2DC0 /* TKiPhoneHeadSet.m */; };
+		976DBCBE2260661E004B2DC0 /* TKiPhoneFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCBD2260661E004B2DC0 /* TKiPhoneFactory.m */; };
+		976DBCC2226066A1004B2DC0 /* TKXiaomiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCC1226066A1004B2DC0 /* TKXiaomiObject.m */; };
+		976DBCC5226066DF004B2DC0 /* TKXiaomiHeadSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCC4226066DF004B2DC0 /* TKXiaomiHeadSet.m */; };
+		976DBCC8226066F5004B2DC0 /* TKXiaomiUSBCable.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCC7226066F5004B2DC0 /* TKXiaomiUSBCable.m */; };
+		976DBCCC226068BB004B2DC0 /* TKXiaomiFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 976DBCCB226068BB004B2DC0 /* TKXiaomiFactory.m */; };
+		97FF5CB62265BF4300D38B3E /* TKUSBCable.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF5CB52265BF4300D38B3E /* TKUSBCable.m */; };
+		97FF5CB92265BF5000D38B3E /* TKHeadSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FF5CB82265BF5000D38B3E /* TKHeadSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,30 @@
 		976DBC8A226062FF004B2DC0 /* DesignPattern-AbstractFactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DesignPattern-AbstractFactoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		976DBC8E226062FF004B2DC0 /* DesignPattern_AbstractFactoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPattern_AbstractFactoryUITests.m; sourceTree = "<group>"; };
 		976DBC90226062FF004B2DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		976DBCAD2260647C004B2DC0 /* TKiPhoneUSBCable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKiPhoneUSBCable.h; sourceTree = "<group>"; };
+		976DBCAE2260647C004B2DC0 /* TKiPhoneUSBCable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKiPhoneUSBCable.m; sourceTree = "<group>"; };
+		976DBCB0226064EB004B2DC0 /* TKMobileFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKMobileFactory.h; sourceTree = "<group>"; };
+		976DBCB1226064EB004B2DC0 /* TKMobileFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKMobileFactory.m; sourceTree = "<group>"; };
+		976DBCB322606554004B2DC0 /* TKMobileObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKMobileObject.h; sourceTree = "<group>"; };
+		976DBCB422606554004B2DC0 /* TKMobileObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKMobileObject.m; sourceTree = "<group>"; };
+		976DBCB622606597004B2DC0 /* TKiPhoneObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKiPhoneObject.h; sourceTree = "<group>"; };
+		976DBCB722606597004B2DC0 /* TKiPhoneObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKiPhoneObject.m; sourceTree = "<group>"; };
+		976DBCB9226065D3004B2DC0 /* TKiPhoneHeadSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKiPhoneHeadSet.h; sourceTree = "<group>"; };
+		976DBCBA226065D3004B2DC0 /* TKiPhoneHeadSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKiPhoneHeadSet.m; sourceTree = "<group>"; };
+		976DBCBC2260661E004B2DC0 /* TKiPhoneFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKiPhoneFactory.h; sourceTree = "<group>"; };
+		976DBCBD2260661E004B2DC0 /* TKiPhoneFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKiPhoneFactory.m; sourceTree = "<group>"; };
+		976DBCC0226066A1004B2DC0 /* TKXiaomiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKXiaomiObject.h; sourceTree = "<group>"; };
+		976DBCC1226066A1004B2DC0 /* TKXiaomiObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKXiaomiObject.m; sourceTree = "<group>"; };
+		976DBCC3226066DF004B2DC0 /* TKXiaomiHeadSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKXiaomiHeadSet.h; sourceTree = "<group>"; };
+		976DBCC4226066DF004B2DC0 /* TKXiaomiHeadSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKXiaomiHeadSet.m; sourceTree = "<group>"; };
+		976DBCC6226066F5004B2DC0 /* TKXiaomiUSBCable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKXiaomiUSBCable.h; sourceTree = "<group>"; };
+		976DBCC7226066F5004B2DC0 /* TKXiaomiUSBCable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKXiaomiUSBCable.m; sourceTree = "<group>"; };
+		976DBCCA226068BB004B2DC0 /* TKXiaomiFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKXiaomiFactory.h; sourceTree = "<group>"; };
+		976DBCCB226068BB004B2DC0 /* TKXiaomiFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKXiaomiFactory.m; sourceTree = "<group>"; };
+		97FF5CB42265BF4300D38B3E /* TKUSBCable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKUSBCable.h; sourceTree = "<group>"; };
+		97FF5CB52265BF4300D38B3E /* TKUSBCable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKUSBCable.m; sourceTree = "<group>"; };
+		97FF5CB72265BF5000D38B3E /* TKHeadSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKHeadSet.h; sourceTree = "<group>"; };
+		97FF5CB82265BF5000D38B3E /* TKHeadSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKHeadSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +139,8 @@
 			children = (
 				976DBC6A226062FE004B2DC0 /* AppDelegate.h */,
 				976DBC6B226062FE004B2DC0 /* AppDelegate.m */,
+				976DBC9E22606354004B2DC0 /* Mobile Factories */,
+				976DBC9C22606309004B2DC0 /* Mobile Products */,
 				976DBC6D226062FE004B2DC0 /* ViewController.h */,
 				976DBC6E226062FE004B2DC0 /* ViewController.m */,
 				976DBC70226062FE004B2DC0 /* Main.storyboard */,
@@ -130,6 +168,76 @@
 				976DBC90226062FF004B2DC0 /* Info.plist */,
 			);
 			path = "DesignPattern-AbstractFactoryUITests";
+			sourceTree = "<group>";
+		};
+		976DBC9C22606309004B2DC0 /* Mobile Products */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCBF22606685004B2DC0 /* Xiaomi Products */,
+				976DBCA022606420004B2DC0 /* iPhone Products */,
+				976DBCB322606554004B2DC0 /* TKMobileObject.h */,
+				976DBCB422606554004B2DC0 /* TKMobileObject.m */,
+				97FF5CB42265BF4300D38B3E /* TKUSBCable.h */,
+				97FF5CB52265BF4300D38B3E /* TKUSBCable.m */,
+				97FF5CB72265BF5000D38B3E /* TKHeadSet.h */,
+				97FF5CB82265BF5000D38B3E /* TKHeadSet.m */,
+			);
+			path = "Mobile Products";
+			sourceTree = "<group>";
+		};
+		976DBC9E22606354004B2DC0 /* Mobile Factories */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCC9226068A0004B2DC0 /* Xiaomi Factory */,
+				976DBC9F2260640D004B2DC0 /* iPhone Factory */,
+				976DBCB0226064EB004B2DC0 /* TKMobileFactory.h */,
+				976DBCB1226064EB004B2DC0 /* TKMobileFactory.m */,
+			);
+			path = "Mobile Factories";
+			sourceTree = "<group>";
+		};
+		976DBC9F2260640D004B2DC0 /* iPhone Factory */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCBC2260661E004B2DC0 /* TKiPhoneFactory.h */,
+				976DBCBD2260661E004B2DC0 /* TKiPhoneFactory.m */,
+			);
+			path = "iPhone Factory";
+			sourceTree = "<group>";
+		};
+		976DBCA022606420004B2DC0 /* iPhone Products */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCB622606597004B2DC0 /* TKiPhoneObject.h */,
+				976DBCB722606597004B2DC0 /* TKiPhoneObject.m */,
+				976DBCAD2260647C004B2DC0 /* TKiPhoneUSBCable.h */,
+				976DBCAE2260647C004B2DC0 /* TKiPhoneUSBCable.m */,
+				976DBCB9226065D3004B2DC0 /* TKiPhoneHeadSet.h */,
+				976DBCBA226065D3004B2DC0 /* TKiPhoneHeadSet.m */,
+			);
+			path = "iPhone Products";
+			sourceTree = "<group>";
+		};
+		976DBCBF22606685004B2DC0 /* Xiaomi Products */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCC0226066A1004B2DC0 /* TKXiaomiObject.h */,
+				976DBCC1226066A1004B2DC0 /* TKXiaomiObject.m */,
+				976DBCC3226066DF004B2DC0 /* TKXiaomiHeadSet.h */,
+				976DBCC4226066DF004B2DC0 /* TKXiaomiHeadSet.m */,
+				976DBCC6226066F5004B2DC0 /* TKXiaomiUSBCable.h */,
+				976DBCC7226066F5004B2DC0 /* TKXiaomiUSBCable.m */,
+			);
+			path = "Xiaomi Products";
+			sourceTree = "<group>";
+		};
+		976DBCC9226068A0004B2DC0 /* Xiaomi Factory */ = {
+			isa = PBXGroup;
+			children = (
+				976DBCCA226068BB004B2DC0 /* TKXiaomiFactory.h */,
+				976DBCCB226068BB004B2DC0 /* TKXiaomiFactory.m */,
+			);
+			path = "Xiaomi Factory";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +370,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				976DBCAF2260647C004B2DC0 /* TKiPhoneUSBCable.m in Sources */,
 				976DBC6F226062FE004B2DC0 /* ViewController.m in Sources */,
+				97FF5CB92265BF5000D38B3E /* TKHeadSet.m in Sources */,
 				976DBC7A226062FF004B2DC0 /* main.m in Sources */,
+				976DBCB822606597004B2DC0 /* TKiPhoneObject.m in Sources */,
+				976DBCC8226066F5004B2DC0 /* TKXiaomiUSBCable.m in Sources */,
+				976DBCBB226065D3004B2DC0 /* TKiPhoneHeadSet.m in Sources */,
+				976DBCB522606554004B2DC0 /* TKMobileObject.m in Sources */,
+				976DBCC5226066DF004B2DC0 /* TKXiaomiHeadSet.m in Sources */,
+				976DBCB2226064EB004B2DC0 /* TKMobileFactory.m in Sources */,
+				976DBCBE2260661E004B2DC0 /* TKiPhoneFactory.m in Sources */,
+				976DBCC2226066A1004B2DC0 /* TKXiaomiObject.m in Sources */,
 				976DBC6C226062FE004B2DC0 /* AppDelegate.m in Sources */,
+				976DBCCC226068BB004B2DC0 /* TKXiaomiFactory.m in Sources */,
+				97FF5CB62265BF4300D38B3E /* TKUSBCable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +555,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DesignPattern-AbstractFactory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +572,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DesignPattern-AbstractFactory/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
